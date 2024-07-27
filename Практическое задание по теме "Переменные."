@@ -1,5 +1,5 @@
 a = completed_homework = 12
 b = number_of_hours_spent = 1.5
 c = сourse_name = "Курс: Python,"
-average_time_per_task = (1.5*1.0000/12)
+average_time_per_task = number_of_hours_spent * 1.000 / completed_homework # b * 1.000 / a
 print(c, "всего задач:", a, "затрачено часов:", b,"среднее время выполнения:", average_time_per_task, "часа.")
